@@ -16,3 +16,13 @@
 9. Xavfsizlikni ta'minlash uchun user password'i ma'lumotlar bazasiga saqlanishda `salt` qo'shib heshlab saqlangan. `Salt` avtomatik generatsiya qilinadi.
 10. Rasm hajmiga qo'yilgan cheklovni tekshirish uchun `Base64 encoding` algoritmiga mos hisob-kitob qilinib, rasm hajmi Stringga qarab tekshirilgan
 11. To'plamlar ustida amallar bajarishda `Stream API` lardan foydalanilgan
+
+### Yozilishi kerak bo'lgan testlar:
+1. User qo'shish.
+2. Token olish.
+3. Chat hosil qilish.
+4. Chatga user qo'shish.
+5. Chatga xabar yozish: 
+   a) matnli xabar;
+   b) rasmli xabar.
+6. Rasmli xabarni yuklab olish
